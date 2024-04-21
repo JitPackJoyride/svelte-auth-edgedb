@@ -1,4 +1,5 @@
 <script lang="ts">
+	import clientAuth from '$lib/auth';
 	import * as Alert from '$lib/components/ui/alert';
 	import CircleAlert from 'lucide-svelte/icons/circle-alert';
 	import Info from 'lucide-svelte/icons/info';
@@ -41,9 +42,9 @@
 		<div class="w-min">
 			<a
 				class={`block shrink-0 whitespace-nowrap rounded-lg bg-slate-50 px-5 py-3 font-medium shadow-md transition-transform hover:scale-[1.03] hover:bg-white`}
-				href={"/"}
+				href={clientAuth.getBuiltinUIUrl()}
 			>
-				Sign in
+				Sign in with ✨EdgeDB Built-in UI✨
 			</a>
 		</div>
 	</div>
