@@ -36,4 +36,15 @@
 			<Alert.Description>{$info}</Alert.Description>
 		</Alert.Root>
 	{/if}
+
+	<div class="mt-6 flex w-max items-start gap-5">
+		<div class="w-min">
+			<a
+				class={`block shrink-0 whitespace-nowrap rounded-lg bg-slate-50 px-5 py-3 font-medium shadow-md transition-transform hover:scale-[1.03] hover:bg-white`}
+				href={"/"}
+			>
+				Sign in
+			</a>
+		</div>
+	</div>
 </div>

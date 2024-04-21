@@ -7,6 +7,12 @@
 		<span class="text-slate-500">Signed in as </span>
 		{data.username}
 	</span>
+	<a
+		href={"/"}
+		class="rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm font-medium"
+	>
+		Sign out
+	</a>
 </div>
 
 {@render children()}
