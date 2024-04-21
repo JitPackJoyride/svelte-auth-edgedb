@@ -13,20 +13,13 @@
 </script>
 
 <div class="w-min min-w-[32rem] p-8">
-	<h1 class="text-start text-3xl font-semibold">Todo Example App</h1>
-	<h2 class="text-xl text-slate-600">SvelteKit + EdgeDB Auth</h2>
+	<h1 class="text-start text-3xl font-semibold">SvelteKit + EdgeDB Auth</h1>
 
 	<p class="my-4">
-		This is a simple todo example app to demonstrate how to integrate EdgeDB Auth into your{' '}
-		<a href="https://kit.svelte.dev/" class="text-sky-600"> Svelte </a>{' '}
-		app, with the help of the{' '}
-		<code class="rounded-md bg-slate-50 p-1">@edgedb/auth-sveltekit</code>{' '}
+		This is a simple app to demonstrate how to integrate EdgeDB Auth into your Svelte app, with the
+		help of the
+		{' '}<code class="rounded-md bg-slate-50 p-1">@edgedb/auth-sveltekit</code>{' '}
 		library.
-	</p>
-
-	<p class="my-4">
-		To start you need to login with either the custom login page, built using api's provided by the
-		auth helper library, or with the EdgeDB's Builtin login UI.
 	</p>
 
 	{#if $error}
